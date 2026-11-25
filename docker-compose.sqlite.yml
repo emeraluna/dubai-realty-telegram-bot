@@ -1,0 +1,17 @@
+# Lightweight deploy: app only, SQLite on host ./data (no Postgres)
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: sqlite+aiosqlite:////app/data/realty.db
+      DLD_OWNER_DATABASE_URL: sqlite+aiosqlite:////app/data/dld_owners.sqlite
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env:ro
+    user: "0:0"
+    restart: unless-stopped
+    command: ["python", "-m", "bot.main"]

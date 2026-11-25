@@ -1,0 +1,26 @@
+{
+  "Code": 0,
+  "Response": {
+    "AuthorityNameEn": "STERLING BOULEVARD REAL ESTATE L.L.C",
+    "PermitNumber": "153343",
+    "EndDate": "2026-12-31T00:00:00",
+    "PropertyNameEn": "Binghatti Grove",
+    "ZoneNameEn": "Al Barsha South Fourth",
+    "PropertyTypeNameEn": "Unit",
+    "PropertyValue": 1195000.0,
+    "PermitTypeNameEn": "Sell",
+    "RoomsCount": "1",
+    "PropertySize": 73.6,
+    "RoomTypeEn": "1 B/R",
+    "BuildingNameEn": "Binghatti Grove",
+    "LicenseNumber": "1106530",
+    "RealEstateNumber": "32071",
+    "PropertyId": -1,
+    "CardHolderNumber": "55786",
+    "CardHolderNameEn": "ALEJANDRO VEGA GONZALEZ",
+    "CardHolderMobile": "971501046096",
+    "CardHolderEmail": "ale.vg.gon@gmail.com",
+    "ListingGuid": "qnzrseuxs57ltl64cp5jt82t2ip0cbe2o54hxgcqfpngnsxme"
+  },
+  "Errors": []
+}
